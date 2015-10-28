@@ -26,7 +26,7 @@ class ext_update
 {
     function main()
     {
-        $GLOBALS['TYPO3_DB']->sql_query(
+     $GLOBALS['TYPO3_DB']->sql_query(
             'REPLACE INTO tx_odsredirects_redirects(mode,url,destination,last_referer,counter,tstamp,has_moved) SELECT 1,url,destination,last_referer,counter,tstamp,has_moved FROM tx_realurl_redirects'
         );
         $content = 'Imported realurl redirect table.';

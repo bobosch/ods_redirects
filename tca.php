@@ -56,8 +56,8 @@ $TCA['tx_odsredirects_redirects'] = array (
 			)
 		),
 		'destination' => array (
-			'exclude' => 0,
-			'label' => 'LLL:EXT:ods_redirects/locallang_db.xml:tx_odsredirects_redirects.destination',
+        'exclude' => 0,
+            'label' => 'LLL:EXT:ods_redirects/locallang_db.xml:tx_odsredirects_redirects.destination',
 			'config' => array (
 				'type'     => 'input',
 				'size'     => 15,
