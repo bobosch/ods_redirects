@@ -1,3 +1,6 @@
+2015-10-28 Laurens Stötzel <l.stoetzel@meeva.de>
+    * Use default Typo3 link handling (support link parameters)
+
 2014-02-06 Robert Heel <typo3@bobosch.de>
 	* Add: Regex redirect mode.
 	* Add: Index on column mode to ensure the database engine process this column first.

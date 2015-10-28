@@ -41,7 +41,7 @@ $TCA['tx_odsredirects_redirects'] = array (
 		),
 		'mode' => array (
 			'exclude' => 0,
-			'label' => 'LLL:EXT:ods_redirects/locallang_db.xml:tx_odsredirects_redirects.mode',		
+			'label' => 'LLL:EXT:ods_redirects/locallang_db.xml:tx_odsredirects_redirects.mode',
 			'config' => array (
 				'type' => 'select',
 				'items' => array (
@@ -56,8 +56,8 @@ $TCA['tx_odsredirects_redirects'] = array (
 			)
 		),
 		'destination' => array (
-			'exclude' => 0,
-			'label' => 'LLL:EXT:ods_redirects/locallang_db.xml:tx_odsredirects_redirects.destination',		
+        'exclude' => 0,
+            'label' => 'LLL:EXT:ods_redirects/locallang_db.xml:tx_odsredirects_redirects.destination',
 			'config' => array (
 				'type'     => 'input',
 				'size'     => 15,
@@ -115,4 +115,3 @@ $TCA['tx_odsredirects_redirects'] = array (
 		'1' => array('showitem' => 'append, has_moved')
 	)
 );
-?>
